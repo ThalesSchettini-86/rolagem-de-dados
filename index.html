@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolagem de dados</title>
+    <link rel="icon" href="imagens/dado (1).png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="layout">
+        <div id="divI"> <!--Div para o layout na esquerda-->
+            <p id="dado">N3nhUm d4D0 f0i r074do 41NDa!¡</p>
+            <!--"Nenhum dado foi rolado ainda!!"-->
+
+            <div id="display">
+                <label id="rgbns">0</label>
+            </div>
+
+            <div>
+                <form>
+                    <label for="num" class="qt" id="lbl">Qu4N7o5 d4D05?¿:: </label>
+                    <!--"Quantos dados??"-->
+                    <input type="number" id="num" class="qt" min="1", value="1">
+                </form>
+            </div>
+            
+            <div id="container"> <!--Div com todos os botões de rolagem-->
+                <button id="d4" class="botao">d4</button>
+                <button id="d6" class="botao">d6</button>
+                <button id="d8" class="botao">d8</button>
+                <button id="d10" class="botao">d10</button>
+                <button id="d12" class="botao">d12</button>
+                <button id="d20" class="botao">d20</button>
+                <button id="d100" class="botao">d100</button>
+            </div>
+        </div>
+
+        <div id="divII"> <!--Div para o layout na direita-->
+            <p id="soma">S0m4;:</p>
+            <!--"Soma::"-->
+            <p id="sum"></p>
+
+            <p id="total">R35ulT4d0s;:</p>
+            <!--"Resultados::"-->
+            <p id="rsltds"></p>
+
+            <div id="imgs"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
