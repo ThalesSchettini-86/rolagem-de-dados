@@ -1,22 +1,22 @@
 /*Importação de fontes*/
 @font-face {
     font-family: sri;
-    src: url(fontes/Sriracha-Regular.ttf);
+    src: url(assets/fontes/Sriracha-Regular.ttf);
 }
 
 @font-face {
     font-family: glitch;
-    src: url(fontes/RubikGlitch-Regular.ttf);
+    src: url(assets/fontes/RubikGlitch-Regular.ttf);
 }
 
 @font-face {
     font-family: bar;
-    src: url(fontes/Barriecito-Regular.ttf);
+    src: url(assets/fontes/Barriecito-Regular.ttf);
 }
 
 
 body{
-    background-image: url(imagens/bgene.jpg);
+    background-image: url(assets/imagens/bgene.jpg);
     background-position: center;
     background-attachment: fixed;
 }

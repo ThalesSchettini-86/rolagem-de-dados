@@ -16,14 +16,14 @@ function rolagem(lados){ // Função para a rolagem dos dados
     let soma = 0;
     let resultados = [];
     let fotos = [];
-    
+
     for (let i = 0; i < n; i++){
         if(lados === 100){
             const dezena = Math.floor(Math.random() * 10);
             const unidade = Math.floor(Math.random() * 10);
             const res = (dezena * 10) + unidade;
-            fotos.push(`<img src="rolagens/ddez_${dezena}0.png" class="rolagem">`)
-            fotos.push(`<img src="rolagens/d10_${unidade}.png" class="rolagem">`)
+            fotos.push(`<img src="assets/rolagens/ddez_${dezena}0.png" class="rolagem">`)
+            fotos.push(`<img src="assets/rolagens/d10_${unidade}.png" class="rolagem">`)
             // Caso diferente para rolagens d100
             // Duas imagens são geradas: Um dado de dezena e o outro de unidade.
             // A soma dos dados é o resultado da rolagem de um d100
@@ -35,7 +35,7 @@ function rolagem(lados){ // Função para a rolagem dos dados
             const res = Math.floor(Math.random() * lados) + 1;
             resultados.push(res);
             soma += res;
-            fotos.push(`<img src="rolagens/d${lados}_${res}.png" class="rolagem">`)
+            fotos.push(`<img src="assets/rolagens/d${lados}_${res}.png" class="rolagem">`)
         }
     }
 
