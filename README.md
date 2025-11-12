@@ -137,3 +137,75 @@ A RPG dice roll front-end focused web project. Includes, microinteractions and a
 ## VII - License
 
 This project is under the MIT license. See the LICENSE file for more details.
+
+---
+---
+
+(DE)
+
+# Würfelroller
+
+Ein front-end Webproket mit Schwerpunkt auf Würfeln für RPG. Beinhaltet Mikrointeraktionen und ein visuelles Feedback für das Ergebnis, sowie eine überwiegende Violett/Rosa Fabpallete, damit das Design der Seite konsistenter mit ihrem Thema ist.
+
+---
+
+## I - Verwendete Technologien
+
+- HTML5 (Um die Seitenstruktur anzulegen)
+- CSS3 (Um Animationen, Hovereffekte und Gradienten hinzuzufügen,und so das Seitendesign zu verfeinern)
+- JavaScript (Um Interaktivität zu der Seite hinzuzufügen und die erwünschte würfeln und die Summe der Ergebnisse durchzuführen.)
+
+---
+
+## II - Funktionalitäten
+
+- Würfeln mit 4, 6, 8, 10, 12, 20 und 100 Seiten reollen.
+- Displaybereich für das Ergebnis
+- Eingabekanten mit Rosa -> Blau -> Violett Gradienten.
+- Hovereffekte auf Knöpfe.
+- Eingabe mit stilvollem Fokus (leichtes Glassmorphismus).
+- Visuelles Feedback zum ausgewählten Knopf
+
+---
+
+## III - Darstellung
+
+![Screenshot](/assets/screenshots/screenshot_default.png)
+
+![Screenshot](/assets/screenshots/screenshot_1d8.png)
+
+![Screenshot](/assets/screenshots/screenshot_3d12.png)
+
+![Screenshot](/assets/screenshots/screenshot_1d100.png)
+
+---
+
+## IV - Wie man es lokal ausführt
+
+- IV.a: Repository klonen
+- IV.b: index.html Datei in Ihrem Webbrowser öffnen
+- IV.c: Die gewünschte Anzahl von Würfeln eingeben und auf den gewünschten Würfelknopf klicken
+
+---
+
+## V - Stil und Personalisierung
+
+- Eingabekanten mit Gradienten (Rosa -> Blau -> Violett)
+- Stilvolle Eingabe und Beschriftungen mit Farben, der mit dem dunkleren Thema der Seiter harmonieren
+- Mikrointeraktionen und Animationen auf Knöpfe
+- Seitenthema basiert auf das Energie/Chaos Element im Universum vom RPG "Ordem Paranormal"
+
+---
+
+
+## VI - Verbesserungen
+
+- Verwendung von komplexerer Logik (vielfach rollen, visuelle Darstellung und kontrolierte Zufälligkeit)
+- Verbesserung im Layout und in der Gliederung des Kodes
+- Zusatz von Fallbackschriftarten
+
+---
+
+## VII - Lizenz
+
+Dieses projekt steht under der MIT-Lizenz. Weitere Details finden Sie in der LICENSE Datei.
